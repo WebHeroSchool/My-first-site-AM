@@ -29,7 +29,7 @@ body {
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 50%
+  top: 50%;
   transform: translateY(-50%);
   width: 23px;
   height: 23px;
@@ -39,7 +39,7 @@ body {
 
 .logo__circle_color_blue {
   left: 8px;
-  top: 41%;
+  top: 56%;
   background: #C8DBFB;
 }
 
