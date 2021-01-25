@@ -56,12 +56,12 @@ body {
   position: relative;
   margin-right: 26px;
   font: 500px 18px/21px Roboto, arial, helvetica, sans-serif;
-  color: #000000;
+  color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   display: block;
   content: '';
@@ -93,7 +93,7 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover:after {
+.menu__item:hover::after {
   position: absolute;
   display: block;
   content: '';
@@ -103,8 +103,8 @@ body {
   background: #0056ec;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
