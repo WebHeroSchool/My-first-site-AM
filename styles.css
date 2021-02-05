@@ -5,12 +5,13 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo,
@@ -23,7 +24,7 @@ body {
   margin-right: 45%;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 20px/25px pt_serifregular, arial, helvetica, sans-serif;
+  font: bold 22px/28px pt_serifregular, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -109,31 +110,36 @@ body {
   width: 100%;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 0 150px 0;
+.main {
+  padding: 0 57% 100px 0;
+  background: top right no-repeat url(img/mainImg.svg);
 }
 
-.main-content__title {
-  font-size: 40px;
-  width: 380px;
-  height: 170px;
+.main__title {
+  font: bold 50px/65px pt_serifregular, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
 
-.main-content__description {
-  width: 335px;
-  height: 35px;
-  padding: 0 0 20px 0;
-  font-size: 16px;
+.main__title-text_highlight {
+  background: #ecf3ff;
 }
 
-.main-content__button {
-  width: 168px;
-  height: 17px;
-  font-size: 14px;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.main__description {
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  padding: 14px 16px;
+  color: #fff;
+  background: #0056ec;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity 0.5s;
+}
+
+.main__button:hover {
+  opacity: 0.5;
 }
